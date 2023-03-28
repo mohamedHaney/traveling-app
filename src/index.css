@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@100;300;500&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(to right, #f7797d, #fbd786,#f7797d );
+}
+.main{
+  margin:auto;
+  width: 550px;
+}
+.main-div {
+  width: 550px;
+  border-bottom: 2px solid salmon;
+  height: 200px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background: #f55a5a;
+  height: 55px;
+  width: 550px;
+  align-items: center;
+  color: white;
+  gap: 7px;
+}
+.header i{
+  margin-left:5px ;
+  font-size: 20px;
+}
+.main-comp {
+  margin: 20px 40px 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.img-div img {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.main-info {
+  margin: 20px 0 20px;
+}
+
+.info i {
+  color: #f55a5a;
+  width: 10px;
+  height: 9.55px;
+  font-size: 12px;
+}
+
+.info a {
+  color: #918e9b;
+  font-size: 10.24px;
+  margin-left: 7px;
+}
+
+.info small {
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.city-name {
+  margin: 2px 0 11px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 25px;
+  color: #2b283a;
+}
+
+.date {
+  width: 100%;
+  font-weight: 700;
+  font-size: 12px;
+  color: #2b283a;
+  margin-bottom: -5px;
+}
+
+.para {
+  width: 100%;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
 }
